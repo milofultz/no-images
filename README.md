@@ -8,6 +8,16 @@ This extension is really simple: on click, it goes through all the `img` element
 I would put it on the Chrome extension site but I don't really want to pay the $5 fee. `¯\_(ツ)_/¯`
 
 
+## Cheap and Easy No-Install Browser Agnostic Version
+---
+
+In the console of your browser, type the following:
+
+    document.querySelectorAll('img').forEach(image => image.remove());
+
+To reset this, reload your page.
+
+
 ## Future Implementation
 ---
 
