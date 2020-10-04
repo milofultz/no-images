@@ -1,7 +1,7 @@
 # No Images Chrome Extension
 ---
 
-I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article.
+When using the Evernote Web Clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article.
 
 This extension is really simple: on click, it goes through all the `img` elements on the page and sets their display to `none`; on clicking the button again, all display settings for the images are set to their original value.
 
