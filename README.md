@@ -1,5 +1,4 @@
 # No Images Chrome Extension
----
 
 When using the Evernote Web Clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article.
 
@@ -11,7 +10,6 @@ This method only works so far sporadically between the "Article" and the "Simpli
 
 
 ## Cheap and Easy No-Install Browser Agnostic Version
----
 
 In the console of your browser, type the following:
 
@@ -21,7 +19,6 @@ To reset this, reload your page.
 
 
 ## Future Implementation
----
 
 * Ensure it keeps images removed when syncing the page to Evernote
 * Ensure it works with both simplified formatting and with entire article
@@ -31,7 +28,6 @@ To reset this, reload your page.
 
 
 ## Installation
----
 
 1. Download the files and store them.
 1. Open Chrome and go to chrome://extensions.
