@@ -1,7 +1,6 @@
 // content.js 
 
 let active = false;
-let imageDisplayArray = [];
 let images = document.querySelectorAll('img');
 
 // the listener waiting for the event
@@ -12,15 +11,11 @@ chrome.runtime.onMessage.addListener(
     if( request.message === "clicked_browser_action" ) {
     	if(!active){
     		images.forEach(image => {
-    			imageDisplayArray.push(image.style.display);
+    			image.remove()
     		});
-    		images.forEach(image => image.style.display = "none");
     		active = true;
     	} else {
-    		for(let index in images) {
-    			images.forEach(image => image.style.display = imageDisplayArray[index]);
-    		}
-    		active = false;
+    		location.reload();
     	}
     }
   }
